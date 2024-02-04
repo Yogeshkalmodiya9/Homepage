@@ -1,0 +1,89 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+}
+.My_Menu{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    background-color: red;
+    text-align: center;
+}  
+.My_Menu{
+    display: inline-block;
+    list-style: none;
+
+} 
+.Menu li{
+ list-style: none;
+ width: 160px;
+ height: 70px;
+ background-color:  red;
+ margin-left: 5px;
+ text-align: center;
+ line-height: 50px;
+ float: left;
+}
+.Menu li:hover{
+    background-color: rgb(35, 128, 250);
+}
+.Menu li a:hover{
+    color:black;
+}
+.Menu li a{
+    color: white;
+    display: block;
+    text-decoration: none;
+}
+.logo{
+    width: 90px;
+
+}
+.logo_li:hover{
+    background-color:  rgb(35, 128, 250)!important;
+}
+.logo_li a{
+    font-size: 30px;
+    background-color:orangered ;
+}
+.logo_li a:hover{
+    color: white!important;
+
+}
+.Menu ul li{
+    margin: 0px;
+}
+.Menu ul{
+    display: none;
+}
+.Menu li:hover ul{
+    display: block;
+}
+.Menu li li ul li{
+    display: none;
+}
+
+/*banner*/
+#banner{
+    width: 100%;
+}
+#banner img{
+    margin-top: 50px;
+    width: 100%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
